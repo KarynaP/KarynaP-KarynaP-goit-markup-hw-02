@@ -1,8 +1,8 @@
-.body {
+body {
 font-family: 'Roboto';   
 }
 
-.link {
+link {
 text-decoration: none;
 }
 
@@ -24,7 +24,11 @@ color: #2196F3;
 color: #000000;
 }
 
-.header-items {
+a {
+text-decoration: none;
+}
+
+.header-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -32,8 +36,8 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.header-items:hover,
-.header-items:focus {
+.header-link:hover
+.header-link:focus {
 color: #2196F3;
 }
 
@@ -171,4 +175,43 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.port-nav-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em; 
+color: #212121;
+}
+
+.title-port-img {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.type-port-img {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
 }
